@@ -1,18 +1,12 @@
-public class Restaurant{
+//import java.util.*;
+public class Restaurant  {
 
-	private String name_restaurant;
 
-	private int no_of_tables = 5;
-
-	private int no_of_avaliable_tables;
-
-	boolean isTableFree()
-	{
-		
-		if (no_of_avaliable_tables == 0)
-			return false;
-		else
-			return true;
-	}
+	
+	//ArrayList<Customer> customers = new ArrayList<Customer>();	
+	Menus menuR = new Menus();
+	Customer inno = new Customer();
+	Bills newBill = inno.buyFood(menuR);
+	
 	
 }
