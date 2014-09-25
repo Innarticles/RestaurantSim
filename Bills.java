@@ -5,7 +5,7 @@ Menus menu;
 int amount;
 //(Customer a, Menus b)
 
-Bills(Customer a, Menus b)
+public Bills(Customer a, Menus b)
 	{
 		cus = a;
 		menu = b;
